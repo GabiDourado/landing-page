@@ -1,0 +1,25 @@
+:root{
+    --cor-fundo: #F8D699;
+    --cor-detalhes: #A67C49;
+    --cor-escura-: #594022;
+    --cor-letra: #F2CA80;
+}
+@font-face {
+    font-family: "Padrao";
+    src: url("components/css/fonts/Irish_Grover/IrishGrover-Regular.ttf");
+}
+@font-face {
+    font-family: "Titulo";
+    src: url("components/css/fonts/MedievalSharp/MedievalSharp-Regular.ttf");
+}
+html, body, div,a, h1, p, span {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+body{
+    font-size: 14px;
+    background-color: var(--cor-fundo);
+    font-family: "Padrao";
+}

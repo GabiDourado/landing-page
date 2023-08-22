@@ -1,0 +1,51 @@
+:root{
+    --cor-fundo: #F8D699;
+    --cor-detalhes: #A67C49;
+    --cor-escura-: #594022;
+    --cor-letra: #F2CA80;
+    --cor-letra2: #F8E5C2;
+}
+@font-face {
+    font-family: "Padrao";
+    src: url("fonts/Irish_Grover/IrishGrover-Regular.ttf");
+}
+@font-face {
+    font-family: "Titulo";
+    src: url("fonts/MedievalSharp/MedievalSharp-Regular.ttf");
+}
+.capa{
+    background-image: url("img/capa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:10px solid #594022;
+    border-bottom:10px solid #594022;
+}
+h1, .letraDif{
+    color: var(--cor-letra);
+}
+h2, h3{
+    color: var(--cor-letra2);
+}
+h1,h2, .letraDif{
+    font-family: "Titulo";
+}
+h3{
+    font-family: "Padrao";
+}
+h1{
+    height: 10rem;
+    font-size: 15rem;
+}
+h2, .letraDif{
+    height: 3rem;
+    font-size: 6rem;
+}
+h3{
+    font-size: 3rem;
+}

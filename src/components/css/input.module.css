@@ -1,0 +1,16 @@
+input {
+    width: 20.7rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 4px solid #41290C;
+    background: rgba(248, 229, 194, 0.39);
+    font-family: "Padrao";
+}
+button{
+    border: 4px solid #41290C;
+    background: #A67C49;
+    font-family: "Padrao";
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}

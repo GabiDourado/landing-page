@@ -1,0 +1,33 @@
+:root{
+    --cor-fundo: #F8D699;
+    --cor-detalhes: #A67C49;
+    --cor-escura-: #594022;
+    --cor-letra: #F2CA80;
+    --cor-letra2: #F8E5C2;
+}
+.tudo{
+    display: flex;
+    flex-flow: row;
+    width: 25rem;
+    color: var(--cor-letra2);
+}
+.escrita h5{
+    font-family: "Titulo";
+}
+.escrita p {
+    font-family: "Padrao";
+}
+ h5{
+    font-size: 1.1rem;
+}
+.escrita p{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.tudo img{
+    width: 8rem;
+    border-radius: 55px;
+}

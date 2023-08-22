@@ -1,0 +1,19 @@
+:root{
+    --cor-fundo: #F8D699;
+    --cor-detalhes: #A67C49;
+    --cor-escura-: #594022;
+    --cor-letra: #F2CA80;
+}
+.div{
+    background-color: var(--cor-detalhes);
+    position: relative;
+    top: -1.5rem;
+}
+.div h3{
+    padding-top: 1rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
